@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>To My Dear Harini ❤️</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- PAGE 1 -->
+<section class="page active" id="page1">
+    <h1>To My Dear Harini ❤️</h1>
+
+    <div class="photos">
+        <img src="images/photo1.jpg">
+        <img src="images/photo2.jpg">
+        <img src="images/photo3.jpg">
+    </div>
+
+    <p class="message">
+        Harini, nee en life-la vandhadhuku apram ellame konjam bright-aa maariduchu.
+        You are not just my girlfriend, you are my comfort zone, my best friend,
+        and sometimes my favorite headache 😌. Un smile-ku naan romba weak,
+        and nee sirikkum pothu ellaa tension-um poidum.  
+        I’m so proud of the person you are and the person you’re becoming.
+        Nee strong-aa irukka, caring-aa irukka, and romba special-aa irukka.
+        Sometimes words aren’t enough, but still I’ll try — I love you more than
+        you know da ❤️. En future-la nee irukkanum, adhu podhum.Nee ethukum feel panaatha en thanga pulla, elaamey seri aagidum.Nee epavumey un kooda iruepn
+    </p>
+
+    <div class="buttons">
+        <button onclick="goToPage('page2')">I love you too ❤️</button>
+        <button onclick="goToPage('reallyPage')">I don’t love you 🙃</button>
+    </div>
+</section>
+
+<!-- PAGE 2 -->
+<section class="page" id="page2">
+    <h2>Terms & Conditions 😌</h2>
+
+    <ul class="terms">
+        <li>1. Nee daily sirikkanum (mandatory 😏)</li>
+        <li>2. Naa ethachu thappu panna manichiranum</li>
+        <li>3. Sad-aa irundhaa en kitta sollanum, escape allowed illa</li>
+        <li>4. En future-la nee default option ❤️</li>
+        <li>5. Lifetime subscription — no cancellation 😌</li>
+    </ul>
+
+    <div class="buttons">
+        <button onclick="goToPage('page3')">I agree ❤️</button>
+        <button onclick="goToPage('reallyPage')">I don’t agree 🙃</button>
+    </div>
+</section>
+
+<!-- PAGE 3 -->
+<section class="page" id="page3">
+    <h2>Choose your adventure 😍</h2>
+
+    <div class="buttons vertical">
+        <button onclick="openLink('https://drive.google.com/drive/folders/15bbzhwKhnjnxGFwWcqD0ySgy4_LAbTlQ')">
+            Travel with me ✈️
+        </button>
+
+        <button onclick="openLink('https://drive.google.com/drive/folders/1Qzr7hO7IgSHeeTCUtXR3nYQSGALXrc1L')">
+            Look at this Sunshine ☀️
+        </button>
+
+        <button onclick="showFuture()">Our better future ❤️</button>
+    </div>
+
+    <img id="futureImage" src="images/future.jpg">
+</section>
+
+<!-- REALLY PAGE -->
+<section class="page" id="reallyPage">
+    <h1>Really ah? 😐</h1>
+
+    <div class="buttons">
+        <button onclick="goToPage('page1')">No 😌</button>
+        <button id="yesBtn" onclick="moveButton()">Yes 😳</button>
+    </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
